@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo List</title>
+</head>
+<body>
+  
+  <div class="wrapper">
+    <div class="task-input">
+      <img src="bars-icon.svg" alt="icon">
+      <input type="text" placeholder="Add a new task">
+    </div>
+    <div class="controls">
+      <div class="filters">
+        <span class="active" id="all">All</span>
+        <span id="pending">Pending</span>
+        <span id="completed">Completed</span>
+      </div>
+      <button class="clear-btn">Clear All</button>
+    </div>
+    <ul class="task-box"></ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
